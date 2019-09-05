@@ -1,6 +1,6 @@
 {
   "name": "intersect-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make json with intersection of two jsons",
   "repository": {
     "type": "git",
