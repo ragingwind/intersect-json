@@ -1,7 +1,7 @@
 {
   "name": "intersect-json",
   "version": "0.1.0",
-  "description": "Make json intersection of two jsons",
+  "description": "Make json with intersection of two jsons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ragingwind/intersect-json.git"
@@ -10,7 +10,7 @@
   "author": {
     "name": "Jimmy Moon",
     "email": "ragingwind@gmail.com",
-    "url": "https://ragingwind.me"
+    "url": "https://jimmy.im"
   },
   "scripts": {
     "build": "tsc",
