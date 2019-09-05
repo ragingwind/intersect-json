@@ -1,0 +1,36 @@
+{
+  "name": "intersect-json",
+  "version": "0.1.0",
+  "description": "Make json intersection of two jsons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragingwind/intersect-json.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jimmy Moon",
+    "email": "ragingwind@gmail.com",
+    "url": "https://ragingwind.me"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "tsc"
+  },
+  "main": "dist",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}
